@@ -1,0 +1,183 @@
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    height: 270px;
+    display: block;
+    background-color: #eaeaea;
+    color: #eaeaea;
+}
+
+.logo {
+    border-radius: 100px;
+    margin-left: 50px;
+}
+
+.main {
+    clear: both;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+a:hover {
+    color: coral;
+}
+
+body h1 {
+    color: chocolate;
+}
+
+body p {
+    color: #484343;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.menu {
+    display: flex;
+    float: left;
+}
+
+.menu_list {
+    list-style-type: none;
+    text-align: center;
+    width: 150px;
+    margin-top: 100px;
+}
+
+.menu a {
+    color: chocolate;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.menu a:hover {
+    color: darkmagenta;
+}
+
+.products h4 {
+    background-color: #eaeaea;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.product_image a img {
+    height: 300px;
+}
+
+.product_image a img:hover {
+    outline: 3px solid #707070;
+}
+
+
+.short_description {
+    color: #707070;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 18px;
+
+}
+
+.full_description {
+    color: #484343;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.characteristics {
+    color: #707070;
+    line-height: 25px;
+    list-style-image: url(pictures/ball.jpg);
+
+}
+
+.table {
+    color: black;
+    font-style: italic;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 2px solid #707070;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600
+}
+
+
+.input_form,
+footer p {
+    color: #484343;
+    font-style: normal;
+    font-weight: 400
+}
+
+.input_form input,
+textarea {
+    color: #707070;
+    width: 230px;
+}
+
+.message {
+    height: 75px;
+    width: 230px;
+}
+
+.email:focus {
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    background-color: coral;
+    width: 230px;
+}
+
+.text,
+.message {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 14px;
+    width: 230px;
+}
+
+
+.button {
+    background-color: wheat;
+    font-size: 20px;
+    font-style: italic;
+    color: #484343;
+    border-radius: 7px;
+}
+
+.button:hover {
+    background-color: coral;
+    color: white;
+}
+
+.button:active {
+    background-color: #484343;
+}
+
+.map {
+    width: 100%;
+    height: 374px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #eaeaea;
+    text-align: right;
+    padding: 10px;
+    padding-right: 50px;
+}
